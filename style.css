@@ -1,0 +1,132 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Arial", Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 35px;
+  padding: 0;
+}
+
+@keyframes appear-main {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+main {
+  width: 65%;
+  margin: 0 auto;
+  color: rgb(0, 0, 0);
+  text-align: justify;
+  position: relative;
+  animation: appear-main 5s;
+}
+
+#navbar {
+  position: fixed;
+  top: 10%;
+  left: 0;
+  margin: 10px;
+  text-align: left;
+}
+
+#navbar a {
+  padding: 6px 10px 6px 10px;
+  background-color: rgb(56, 80, 80);
+  border-radius: 10px;
+  text-decoration: none;
+  opacity: 0.7;
+  color: white;
+  display: block;
+  margin: 10px 0 10px 0;
+}
+
+#navbar a:hover {
+  background-color: rgb(91, 131, 131);
+}
+
+h1 {
+  text-align: center;
+}
+
+.whales-image {
+  background: url("https://images.pexels.com/photos/302271/pexels-photo-302271.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+  background-size: 100%;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: -1;
+  opacity: 0.4;
+}
+
+.image-a-whale {
+  float: left;
+  width: 300px;
+  margin: 10px 20px 10px 0;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+
+.image-anatomy-of-a-whale {
+  float: right;
+  width: 400px;
+  margin: 10px 0 10px 20px;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+
+.image-anatomy-of-a-whale-2 {
+  float: left;
+  width: 400px;
+  margin: 10px 20px 10px 0;
+  border: none;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+
+.image-of-a-sensing-whale {
+  float: right;
+  margin: 0 0 10px 20px;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+
+.brain-sizes {
+  float: left;
+  width: 400px;
+  margin: 0 20px 10px 0;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+
+.life-cycle-whales {
+  float: right;
+  margin: 10px 0 10px 20px;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+
+footer {
+  position: absolute;
+  right: 0;
+  left: 0;
+  height: auto;
+  background-color: black;
+  opacity: 0.5;
+  margin: 0;
+  color: white;
+  text-align: center;
+}
+
+footer p {
+  margin: 3px;
+  font-size: 14px;
+}
+
+footer a {
+  text-decoration: none;
+  color: yellow;
+}
