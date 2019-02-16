@@ -83,7 +83,6 @@ main {
 
 .grid-item:nth-child(-n + 2) {
     width: calc(100% / 2 - 20px);
-  }
 }
 
 @media (min-width: 1024px) {
